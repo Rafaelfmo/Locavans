@@ -6,10 +6,9 @@ import { QuemSomos } from './components/quemsomos'
 export function App() {
   return (
     <>
-    <Header />
-    <Capa />
-    <QuemSomos />
+      <Header />
+      <Capa />
+      <QuemSomos />
     </>
   )
 }
-
