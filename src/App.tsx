@@ -1,9 +1,15 @@
 import './index.css'
-import { Navbar } from './components/navbar'
+import { Header } from './components/header'
+import { Capa } from './components/capa'
+import { QuemSomos } from './components/quemsomos'
 
 export function App() {
   return (
-    <Navbar />
+    <>
+    <Header />
+    <Capa />
+    <QuemSomos />
+    </>
   )
 }
 
