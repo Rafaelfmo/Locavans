@@ -1,7 +1,8 @@
-import './index.css'
-import { Header } from './components/header'
-import { Capa } from './components/capa'
-import { QuemSomos } from './components/quemsomos'
+import "./index.css";
+import { Header } from "./components/header";
+import { Capa } from "./components/capa";
+import { QuemSomos } from "./components/quemsomos";
+import { NossosServicos } from "./components/servicos";
 
 export function App() {
   return (
@@ -9,6 +10,7 @@ export function App() {
       <Header />
       <Capa />
       <QuemSomos />
+      <NossosServicos />
     </>
-  )
+  );
 }
