@@ -1,8 +1,11 @@
 import "./index.css";
-import { Header } from "./components/header";
-import { Capa } from "./components/capa";
-import { QuemSomos } from "./components/quemsomos";
-import { NossosServicos } from "./components/servicos";
+import { Header } from "./sections/header";
+import { Capa } from "./sections/capa";
+import { QuemSomos } from "./sections/quemsomos";
+import { Servicos } from "./sections/servicos";
+import { Frota } from "./sections/frota";
+import { Passeios } from "./sections/passeios";
+import { Footer } from "./sections/footer";
 
 export function App() {
   return (
@@ -10,7 +13,10 @@ export function App() {
       <Header />
       <Capa />
       <QuemSomos />
-      <NossosServicos />
+      <Servicos />
+      <Frota />
+      <Passeios />
+      <Footer />
     </>
   );
 }
