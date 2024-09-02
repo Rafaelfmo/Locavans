@@ -30,29 +30,38 @@ export function Servicos() {
     "Transfer e Translados": (
       <FaBus className="mx-auto mb-4 text-4xl text-white" />
     ),
-    "City Tour": <FaCity className="mx-auto mb-4 text-4xl text-white" />,
+    Passeios: <FaCity className="mx-auto mb-4 text-4xl text-white" />,
   };
 
   return (
-    <section className="bg-gray-800 py-16 text-white">
+    <section className="bg-gray-900 py-16 text-white">
       <div className="container mx-auto px-4">
         <h2 className="mb-12 text-center text-4xl font-bold">Serviços</h2>
-        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="font-inter grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {servicos.map((servico, index) => (
-            <div key={index} className="rounded-lg bg-gray-900 p-6 shadow-lg">
+            <div
+              key={index}
+              className="flex h-full flex-col rounded-lg bg-gray-800 p-6 shadow-lg"
+            >
               {iconesServicos[servico.titulo]}
-              <h3 className="mb-4 text-center text-2xl font-bold">
+              <h3 className="mb-4 text-nowrap text-center text-xl font-bold">
                 {servico.titulo}
               </h3>
               <p className="mb-4 text-center">{servico.descricao}</p>
-              <ul className="text-gray-400">
+              <ul className="flex-grow text-gray-400">
                 {servico.caracteristicas.map((caracteristica, i) => (
-                  <li key={i} className="mb-2 flex items-center">
+                  <li key={i} className="mb-2 flex items-center space-x-2">
                     {iconesCaracteristicas[caracteristica]}
-                    {caracteristica}
+                    <span>{caracteristica}</span>
                   </li>
                 ))}
               </ul>
+              <hr className="my-4 border-t-2 border-gray-500" />
+              <div className="mt-auto flex justify-center">
+                <button className="rounded bg-orange-500 px-4 py-2 font-semibold text-white hover:bg-orange-400">
+                  Saiba mais
+                </button>
+              </div>
             </div>
           ))}
         </div>

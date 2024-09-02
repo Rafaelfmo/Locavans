@@ -5,10 +5,12 @@ export interface Passeio {
   valor: number;
 }
 
+import lagoinha from "../assets/lagoinha.png";
+
 export const passeios: Passeio[] = [
   {
-    imagem: "passeio1.jpg",
-    titulo: "Passeio 1",
+    imagem: "lagoinha",
+    titulo: "Praia de Lagoinha",
     caracteristicas: [
       "Tipo: Privativo",
       "Transporte: Ida e volta",

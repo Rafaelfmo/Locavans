@@ -8,7 +8,7 @@ export const servicos: Servico[] = [
   {
     titulo: "Excursões",
     descricao:
-      "Realizamos excursões para grupos com roteiros personalizados e confortáveis.",
+      "Realizamos excursões para grupos de tamanhos diversos com roteiros personalizados.",
     caracteristicas: [
       "Veículos para grupos",
       "Atendimento personalizado",
@@ -19,7 +19,7 @@ export const servicos: Servico[] = [
   {
     titulo: "Corporativo e Executivo",
     descricao:
-      "Realizamos o transporte dos seus colaboradores com segurança e conforto.",
+      "Realizamos o transporte dos seus colaboradores com segurança e conforto para os passageiros.",
     caracteristicas: [
       "Veículos para grupos",
       "Atendimento personalizado",
@@ -30,7 +30,7 @@ export const servicos: Servico[] = [
   {
     titulo: "Eventos",
     descricao:
-      "Transporte para eventos corporativos, casamentos, shows e festas.",
+      "Transporte para todos os tipos de evento na região, como casamentos, shows e congressos.",
     caracteristicas: [
       "Guias especializados",
       "Atendimento personalizado",
@@ -51,7 +51,8 @@ export const servicos: Servico[] = [
   },
   {
     titulo: "Transfer e Translados",
-    descricao: "Transfer e translados para hotéis, aeroportos e eventos.",
+    descricao:
+      "Realizamos transfers e translados para hotéis, aeroportos, eventos e empresas.",
     caracteristicas: [
       "Guias especializados",
       "Atendimento personalizado",
@@ -60,9 +61,9 @@ export const servicos: Servico[] = [
     ],
   },
   {
-    titulo: "City Tour",
+    titulo: "Passeios",
     descricao:
-      "Realizamos city tour em diversas cidades do Nordeste com guias especializados.",
+      "Passeios turísticos para conhecer os principais pontos turísticos da região.",
     caracteristicas: [
       "Guias especializados",
       "Atendimento personalizado",

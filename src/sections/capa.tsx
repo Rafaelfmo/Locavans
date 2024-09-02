@@ -1,10 +1,11 @@
 import { FaWhatsapp } from "react-icons/fa";
+import banner from "../assets/banner.png";
 
 export function Capa() {
   return (
     <section
       className="relative flex h-screen items-center justify-center bg-cover bg-center"
-      style={{ backgroundImage: "url('/banner.png')" }}
+      style={{ backgroundImage: `url(${banner})` }}
     >
       <div className="absolute inset-0 bg-black opacity-30"></div>
       <div className="relative z-10 px-4 text-center text-white">
