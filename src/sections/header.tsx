@@ -8,49 +8,51 @@ export function Header() {
     setIsMenuMobileOpen(!isMenuMobileOpen);
   };
 
+  const handleScroll = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+    setIsMenuMobileOpen(false);
+  };
+
   return (
-    <header className="bg-white shadow-md">
+    <header id="inicio" className="bg-white shadow-md">
       <div className="container mx-auto flex items-baseline justify-between py-4">
         <div className="font-inter text-3xl font-bold">
           Locavans<span className="text-5xl text-orange-500">.</span>
         </div>
         <nav className="hidden space-x-6 md:flex">
-          <a
-            href="#inicio"
-            className="font-inter font-bold text-black hover:text-orange-500"
-          >
-            Início
-          </a>
-          <a
-            href="#quem-somos"
+          <button
+            onClick={() => handleScroll("quem-somos")}
             className="font-inter font-bold text-black hover:text-orange-500"
           >
             Quem Somos
-          </a>
-          <a
-            href="#servicos"
+          </button>
+          <button
+            onClick={() => handleScroll("servicos")}
             className="font-inter font-bold text-black hover:text-orange-500"
           >
             Serviços
-          </a>
-          <a
-            href="#frota"
+          </button>
+          <button
+            onClick={() => handleScroll("frota")}
             className="font-inter font-bold text-black hover:text-orange-500"
           >
             Frota
-          </a>
-          <a
-            href="#passeios"
+          </button>
+          <button
+            onClick={() => handleScroll("passeios")}
             className="font-inter font-bold text-black hover:text-orange-500"
           >
             Passeios
-          </a>
-          <a
-            href="#contatos"
+          </button>
+          <button
+            onClick={() => handleScroll("contatos")}
             className="font-inter font-bold text-black hover:text-orange-500"
           >
             Contatos
-          </a>
+          </button>
         </nav>
         <div className="md:hidden">
           <button
@@ -63,49 +65,37 @@ export function Header() {
       </div>
 
       {isMenuMobileOpen && (
-        <nav className="font-inter absolute left-0 top-0 z-50 flex h-full w-full flex-col items-center justify-center space-y-4 bg-white">
-          <a
-            href="#inicio"
+        <nav className="absolute left-0 top-0 z-50 flex h-full w-full flex-col items-center justify-center space-y-4 bg-white font-inter">
+          <button
+            onClick={() => handleScroll("quem-somos")}
             className="font-bold text-black hover:text-orange-500"
-            onClick={toggleMenu}
-          >
-            Início
-          </a>
-          <a
-            href="#quem-somos"
-            className="font-bold text-black hover:text-orange-500"
-            onClick={toggleMenu}
           >
             Quem Somos
-          </a>
-          <a
-            href="#servicos"
+          </button>
+          <button
+            onClick={() => handleScroll("servicos")}
             className="font-bold text-black hover:text-orange-500"
-            onClick={toggleMenu}
           >
             Serviços
-          </a>
-          <a
-            href="#frota"
+          </button>
+          <button
+            onClick={() => handleScroll("frota")}
             className="font-bold text-black hover:text-orange-500"
-            onClick={toggleMenu}
           >
             Frota
-          </a>
-          <a
-            href="#passeios"
+          </button>
+          <button
+            onClick={() => handleScroll("passeios")}
             className="font-bold text-black hover:text-orange-500"
-            onClick={toggleMenu}
           >
             Passeios
-          </a>
-          <a
-            href="#contatos"
+          </button>
+          <button
+            onClick={() => handleScroll("contatos")}
             className="font-bold text-black hover:text-orange-500"
-            onClick={toggleMenu}
           >
             Contatos
-          </a>
+          </button>
         </nav>
       )}
     </header>

@@ -8,9 +8,14 @@ import {
 } from "react-icons/fa";
 
 export function Footer() {
+  const handleScroll = (id: string) => {
+    const element = document.getElementById(id);
+    element?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
-    <footer className="bg-black py-12 text-white">
-      <div className="font-inter flex flex-col items-center justify-around md:flex-row md:items-baseline">
+    <footer id="contatos" className="bg-black py-12 text-white">
+      <div className="flex flex-col items-center justify-around font-inter md:flex-row md:items-baseline">
         {/* Seção de Informações da Empresa */}
         <div className="mb-8 md:mb-0 md:text-left">
           <h3 className="text-5xl font-bold md:text-3xl lg:text-4xl">
@@ -23,29 +28,44 @@ export function Footer() {
           <p className="mb-4 text-xl font-semibold">Navegação</p>
           <ul className="flex flex-col space-y-2 text-center md:space-y-0 md:text-left">
             <li>
-              <a href="#inicio" className="hover:text-orange-400">
+              <button
+                onClick={() => handleScroll("inicio")}
+                className="hover:text-orange-400"
+              >
                 Início
-              </a>
+              </button>
             </li>
             <li>
-              <a href="#quem-somos" className="hover:text-orange-400">
+              <button
+                onClick={() => handleScroll("quem-somos")}
+                className="hover:text-orange-400"
+              >
                 Quem Somos
-              </a>
+              </button>
             </li>
             <li>
-              <a href="#servicos" className="hover:text-orange-400">
+              <button
+                onClick={() => handleScroll("servicos")}
+                className="hover:text-orange-400"
+              >
                 Serviços
-              </a>
+              </button>
             </li>
             <li>
-              <a href="#frota" className="hover:text-orange-400">
+              <button
+                onClick={() => handleScroll("frota")}
+                className="hover:text-orange-400"
+              >
                 Frota
-              </a>
+              </button>
             </li>
             <li>
-              <a href="#contatos" className="hover:text-orange-400">
+              <button
+                onClick={() => handleScroll("passeios")}
+                className="hover:text-orange-400"
+              >
                 Passeios
-              </a>
+              </button>
             </li>
           </ul>
         </div>

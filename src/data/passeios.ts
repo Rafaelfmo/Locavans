@@ -6,10 +6,14 @@ export interface Passeio {
 }
 
 import lagoinha from "../assets/lagoinha.png";
+import canoaquebrada from "../assets/canoa.png";
+import morrobranco from "../assets/morrobranco.png";
+import beachpark from "../assets/beachpark.png";
+import jericoacara from "../assets/jericoacara.png";
 
 export const passeios: Passeio[] = [
   {
-    imagem: "lagoinha",
+    imagem: lagoinha,
     titulo: "Praia de Lagoinha",
     caracteristicas: [
       "Tipo: Privativo",
@@ -19,8 +23,8 @@ export const passeios: Passeio[] = [
     valor: 100,
   },
   {
-    imagem: "passeio2.jpg",
-    titulo: "Passeio 2",
+    imagem: canoaquebrada,
+    titulo: "Praia de Canoa Quebrada",
     caracteristicas: [
       "Tipo: Privativo",
       "Transporte: Ida e volta",
@@ -29,23 +33,33 @@ export const passeios: Passeio[] = [
     valor: 200,
   },
   {
-    imagem: "passeio3.jpg",
-    titulo: "Passeio 3",
+    imagem: morrobranco,
+    titulo: "Praia de Morro Branco",
     caracteristicas: [
       "Tipo: Privativo e compartilhado",
       "Transporte: Ida e volta",
-      "Veículo: Sprinter 415",
+      "Veículo: Hilux SW4",
     ],
     valor: 300,
   },
   {
-    imagem: "passeio4.jpg",
-    titulo: "Passeio 4",
+    imagem: beachpark,
+    titulo: "Praia do Beach Park",
     caracteristicas: [
       "Tipo: Privativo e compartilhado",
       "Transporte: Ida e volta",
       "Veículo: Sprinter 415",
     ],
     valor: 400,
+  },
+  {
+    imagem: jericoacara,
+    titulo: "Praia de Jericoacoara",
+    caracteristicas: [
+      "Tipo: Privativo",
+      "Transporte: Ida e volta",
+      "Veículo: Hilux SW4",
+    ],
+    valor: 500,
   },
 ];

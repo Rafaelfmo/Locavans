@@ -34,10 +34,10 @@ export function Servicos() {
   };
 
   return (
-    <section className="bg-gray-900 py-16 text-white">
+    <section id="servicos" className="bg-gray-900 py-16 text-white">
       <div className="container mx-auto px-4">
         <h2 className="mb-12 text-center text-4xl font-bold">Serviços</h2>
-        <div className="font-inter grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-8 font-inter sm:grid-cols-2 lg:grid-cols-3">
           {servicos.map((servico, index) => (
             <div
               key={index}

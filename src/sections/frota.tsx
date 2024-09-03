@@ -17,8 +17,8 @@ export function Frota() {
   };
 
   return (
-    <section className="bg-gray-900 py-16">
-      <div className="font-inter container mx-auto px-4">
+    <section id="frota" className="bg-gray-900 py-16">
+      <div className="container mx-auto px-4 font-inter">
         <h2 className="mb-12 text-center text-4xl font-bold text-white">
           Nossa Frota
         </h2>
