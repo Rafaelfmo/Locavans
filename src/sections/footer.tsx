@@ -125,7 +125,13 @@ export function Footer() {
           © {new Date().getFullYear()} Locavans. Todos os direitos reservados.
         </p>
         <p className="text-gray-400">
-          Projetado por <span className="font-bold text-white">Rafaelfmo</span>
+          Projetado por{" "}
+          <a
+            href="https://github.com/Rafaelfmo"
+            className="font-bold text-white"
+          >
+            Rafaelfmo
+          </a>
         </p>
       </div>
     </footer>
