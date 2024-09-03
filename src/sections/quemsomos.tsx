@@ -6,69 +6,53 @@ import {
 } from "react-icons/fa";
 
 import logo from "../assets/logo.png";
+import azul from "../assets/parceiros/azul.png";
+import gol from "../assets/parceiros/gol.png";
+import tap from "../assets/parceiros/tap.png";
+import policia from "../assets/parceiros/policia.png";
+import xand from "../assets/parceiros/xand.png";
+import cordeiro from "../assets/parceiros/cordeiro.png";
+import a3 from "../assets/parceiros/a3.png";
+import aviacao from "../assets/parceiros/aviacao.png";
 
 export function QuemSomos() {
   return (
     <section id="quem-somos" className="flex flex-col md:flex-row">
       {/* Coluna Esquerda */}
-      <div className="flex w-full flex-col items-center bg-white md:w-1/2 lg:px-12 xl:px-20">
+      <div className="flex w-full flex-col items-center justify-center bg-white md:w-1/2 lg:px-12 xl:px-20">
         {/* Logo Principal */}
-        <div className="mt-8 flex w-full justify-center md:mt-12 lg:mt-16">
-          <img src={logo} alt="logo" className="w-2/3 md:w-full" />
+        <div className="flex w-full justify-center">
+          <img
+            src={logo}
+            alt="logo"
+            className="w-2/3 max-w-[250px] md:w-full"
+          />
         </div>
 
-        <div className="md:mt-12lg:mt-16 relative mt-8 text-center">
+        <div className="relative mt-8 text-center md:mt-12 lg:mt-16">
           <h2 className="mb-4 text-2xl font-bold md:mb-6 md:text-3xl lg:text-4xl">
             Empresas parceiras
           </h2>
-          <div className="flex flex-wrap justify-center gap-4">
+          <div className="grid grid-cols-3 place-items-center gap-4 md:grid-cols-4 lg:grid-cols-4">
             {/* Logos das empresas parceiras */}
+            <img src={azul} alt="azul" className="h-16 object-contain" />
+            <img src={gol} alt="gol" className="h-16 object-contain" />
+            <img src={tap} alt="tap" className="h-16 object-contain" />
+            <img src={policia} alt="policia" className="h-16 object-contain" />
+            <img src={xand} alt="xand" className="h-16 object-contain" />
             <img
-              src="logo1.png"
-              alt="Parceiro 1"
-              className="h-12 object-contain md:h-14 lg:h-16 xl:h-20"
+              src={cordeiro}
+              alt="cordeiro"
+              className="h-16 object-contain"
             />
-            <img
-              src="logo2.png"
-              alt="Parceiro 2"
-              className="h-12 object-contain md:h-14 lg:h-16 xl:h-20"
-            />
-            <img
-              src="logo3.png"
-              alt="Parceiro 3"
-              className="h-12 object-contain md:h-14 lg:h-16 xl:h-20"
-            />
-            <img
-              src="logo4.png"
-              alt="Parceiro 4"
-              className="h-12 object-contain md:h-14 lg:h-16 xl:h-20"
-            />
-            <img
-              src="logo5.png"
-              alt="Parceiro 5"
-              className="h-12 object-contain md:h-14 lg:h-16 xl:h-20"
-            />
-            <img
-              src="logo6.png"
-              alt="Parceiro 6"
-              className="h-12 object-contain md:h-14 lg:h-16 xl:h-20"
-            />
-            <img
-              src="logo7.png"
-              alt="Parceiro 7"
-              className="h-12 object-contain md:h-14 lg:h-16 xl:h-20"
-            />
-            <img
-              src="logo8.png"
-              alt="Parceiro 8"
-              className="h-12 object-contain md:h-14 lg:h-16 xl:h-20"
-            />
+            <img src={a3} alt="a3" className="h-16 object-contain" />
+            <img src={aviacao} alt="aviacao" className="h-16 object-contain" />
           </div>
         </div>
       </div>
 
       {/* Coluna Direita */}
-      <div className="flex flex-col gap-6 bg-orange-500 text-center font-inter text-white md:w-1/2 md:justify-center lg:justify-around lg:px-12 lg:text-left xl:px-20">
+      <div className="flex flex-col gap-6 bg-orange-500 text-center font-inter text-white md:w-1/2 lg:justify-around lg:px-12 lg:text-left xl:px-20">
         <h1 className="mt-4 text-5xl font-bold lg:text-6xl">Quem somos?</h1>
         <p className="mx-auto max-w-96 text-2xl font-semibold lg:mx-0 lg:max-w-full lg:text-3xl">
           Somos uma empresa que atua no mercado de transporte há 15 anos.

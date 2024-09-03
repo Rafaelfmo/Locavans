@@ -5,11 +5,11 @@ export interface Passeio {
   valor: number;
 }
 
-import lagoinha from "../assets/lagoinha.png";
-import canoaquebrada from "../assets/canoa.png";
-import morrobranco from "../assets/morrobranco.png";
-import beachpark from "../assets/beachpark.png";
-import jericoacara from "../assets/jericoacara.png";
+import lagoinha from "../assets/passeios/lagoinha.png";
+import canoaquebrada from "../assets/passeios/canoa.png";
+import morrobranco from "../assets/passeios/morrobranco.png";
+import beachpark from "../assets/passeios/beachpark.png";
+import jericoacara from "../assets/passeios/jericoacara.png";
 
 export const passeios: Passeio[] = [
   {
