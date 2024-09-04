@@ -20,19 +20,19 @@ Este projeto é uma landing page para **Locavans**, uma empresa de locação de 
 
 ```bash
 ├── public/                 # Arquivos públicos
-├── src/
+├── src/                    # Código-fonte do projeto
 │   ├── assets/             # Imagens e outros arquivos estáticos
-│   ├── components/         # Componentes React reutilizáveis
-│   ├── data/               # Arquivos de dados para passeios e veículos
-│   ├── sections/           # Componentes de seções como Header, Footer, etc.
+│   ├── data/               # Arquivos de dados para passeios, veículos e serviços
+│   ├── sections/           # Sesões da página
 │   ├── App.tsx             # Componente principal
 │   ├── index.tsx           # Ponto de entrada do React
 │   └── main.tsx            # Configuração principal do projeto
-├── index.html              # HTML principal
 ├── .gitignore              # Arquivos e diretórios a serem ignorados pelo Git
+├── .prettierrc             # Configuração do Prettier
+├── index.html              # HTML principal
 ├── package.json            # Dependências e scripts do projeto
 ├── tailwind.config.js      # Configuração do TailwindCSS
-├── tsconfig.json           # Configuração do TypeScript
+├── postcss.config.js       # Configuração do PostCSS
 └── README.md               # Documentação do projeto
 ```
 
