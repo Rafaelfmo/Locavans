@@ -26,7 +26,7 @@ export const veiculos: Veiculo[] = [
     ],
   },
   {
-    nome: "Spriter 515",
+    nome: "Sprinter 515",
     imagem: "imagem-minivan.jpg",
     caracteristicas: [
       "Ar condicionado",

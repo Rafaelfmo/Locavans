@@ -57,9 +57,9 @@ export function QuemSomos() {
           <h3 className="mb-4 text-xl font-bold md:text-2xl lg:text-3xl xl:text-5xl">
             Nossos contatos
           </h3>
-          <div className="flex flex-col items-center gap-4 font-outfit lg:mt-6 lg:items-start lg:space-y-2">
+          <div className="flex flex-col items-center gap-4 py-3 font-outfit lg:mt-6 lg:items-start lg:space-y-2">
             <div className="flex items-center gap-2 text-lg lg:text-xl">
-              <FaPhone className="rotate-90 transform text-2xl" />
+              <FaPhone className="text-1xl rotate-90 transform" />
               <p>
                 <span className="font-bold">:</span> (85) 9 9999-9999
               </p>
@@ -71,7 +71,7 @@ export function QuemSomos() {
               </p>
             </div>
             <div className="flex items-center gap-2 text-lg lg:text-xl">
-              <FaEnvelope className="text-2xl" />
+              <FaEnvelope className="text-1xl" />
               <p>
                 <span className="font-bold">:</span> locavans@gmail.com.br
               </p>
