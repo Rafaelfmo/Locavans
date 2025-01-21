@@ -49,9 +49,15 @@ export function Passeios() {
                   R$ {passeio.valor},00
                   <span className="text-sm text-white">por pessoa</span>
                 </p>
-                <button className="mt-4 w-full rounded-full bg-orange-500 py-2 text-white transition duration-300 hover:bg-orange-600">
-                  Reservar
-                </button>
+                <a
+                  href={`https://wa.me/+5585996237064?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20o%20passeio%20para%20${encodeURIComponent(passeio.titulo)}.`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="mt-4 w-full rounded-full bg-orange-500 py-2 text-white transition duration-300 hover:bg-orange-600">
+                    Reservar
+                  </button>
+                </a>
               </div>
             </div>
           ))}

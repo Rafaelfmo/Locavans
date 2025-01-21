@@ -61,26 +61,26 @@ export function QuemSomos() {
             <div className="flex items-center gap-2 text-lg lg:text-xl">
               <FaPhone className="text-1xl rotate-90 transform" />
               <p>
-                <span className="font-bold">:</span> (85) 9 9999-9999
+                <span className="font-bold">:</span> (85) 9 8966-0468
               </p>
             </div>
             <div className="flex items-center gap-2 text-lg lg:text-xl">
               <FaWhatsapp className="text-2xl" />
               <p>
-                <span className="font-bold">:</span> (85) 9 9999-9999
+                <span className="font-bold">:</span> (85) 9 8719-4486
               </p>
             </div>
             <div className="flex items-center gap-2 text-lg lg:text-xl">
               <FaEnvelope className="text-1xl" />
               <p>
-                <span className="font-bold">:</span> locavans@gmail.com.br
+                <span className="font-bold">:</span> locavansce@outlook.com
               </p>
             </div>
             <div className="flex items-center gap-2 text-lg lg:text-xl">
               <FaMapMarkerAlt className="text-2xl" />
               <p>
-                <span className="font-bold">:</span> Av. Desembargador Moreira,
-                2800
+                <span className="font-bold">:</span> Av. Prudente Brasil, 302 -
+                Passaré
               </p>
             </div>
           </div>

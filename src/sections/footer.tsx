@@ -77,26 +77,26 @@ export function Footer() {
             <div className="flex items-center gap-2 text-lg md:text-sm">
               <FaPhone className="text-md rotate-90 transform" />
               <p>
-                <span className="font-bold">:</span> (85) 9 9999-9999
+                <span className="font-bold">:</span> (85) 9 8966-0468
               </p>
             </div>
             <div className="flex items-center gap-2 text-lg md:text-sm">
               <FaWhatsapp className="text-xl" />
               <p>
-                <span className="font-bold">:</span> (85) 9 9999-9999
+                <span className="font-bold">:</span> (85) 9 8719-4486
               </p>
             </div>
             <div className="flex items-center gap-2 text-lg md:text-sm">
               <FaEnvelope className="text-md" />
               <p>
-                <span className="font-bold">:</span> locavans@gmail.com.br
+                <span className="font-bold">:</span> locavansce@outlook.com
               </p>
             </div>
             <div className="flex items-center gap-2 text-lg md:text-sm">
               <FaMapMarkerAlt className="text-md" />
               <p>
-                <span className="font-bold">:</span> Av. Desembargador Moreira,
-                2800
+                <span className="font-bold">:</span> Av. Prudente Brasil, 302 -
+                Passaré
               </p>
             </div>
           </div>
@@ -106,13 +106,22 @@ export function Footer() {
         <div className="mt-8 md:mt-0 md:text-left">
           <p className="mb-4 text-xl font-semibold">Redes Sociais</p>
           <div className="mx-3 flex justify-center space-x-4 md:justify-start">
-            <a href="#" className="hover:text-orange-400">
+            <a
+              href="https://wa.me/+5585996237064?text=Olá,%20gostaria%20de%20mais%20informações."
+              className="hover:text-orange-400"
+            >
               <FaWhatsapp size={25} />
             </a>
-            <a href="#" className="hover:text-orange-400">
+            <a
+              href="https://www.instagram.com/locavansturismo?igsh=MW11dzE1ajExczdkYg%3D%3D#"
+              className="hover:text-orange-400"
+            >
               <FaInstagram size={25} />
             </a>
-            <a href="#" className="hover:text-orange-400">
+            <a
+              href="https://www.tripadvisor.com.br/Attraction_Review-g303293-d26280965-Reviews-LOCAVANS-Fortaleza_State_of_Ceara.html"
+              className="hover:text-orange-400"
+            >
               <FaTripadvisor size={25} />
             </a>
           </div>
