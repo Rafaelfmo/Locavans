@@ -4,10 +4,15 @@ export interface Veiculo {
   caracteristicas: string[];
 }
 
+import micro from "../assets/micro.png";
+import van_preta from "../assets/van_preta.png";
+import van_branca from "../assets/van_branca.png";
+import spin from "../assets/spin.png";
+
 export const veiculos: Veiculo[] = [
   {
-    nome: "Corolla",
-    imagem: "imagem-onibus.jpg",
+    nome: "Spin",
+    imagem: spin,
     caracteristicas: [
       "Ar condicionado",
       "Wi-Fi",
@@ -17,7 +22,7 @@ export const veiculos: Veiculo[] = [
   },
   {
     nome: "Sprinter 415",
-    imagem: "imagem-van.jpg",
+    imagem: van_branca,
     caracteristicas: [
       "Ar condicionado",
       "Wi-Fi",
@@ -27,17 +32,7 @@ export const veiculos: Veiculo[] = [
   },
   {
     nome: "Sprinter 515",
-    imagem: "imagem-minivan.jpg",
-    caracteristicas: [
-      "Ar condicionado",
-      "Wi-Fi",
-      "Espaço para bagagem",
-      "Motorista experiente",
-    ],
-  },
-  {
-    nome: "Hilux SW4",
-    imagem: "imagem-carro.jpg",
+    imagem: van_preta,
     caracteristicas: [
       "Ar condicionado",
       "Wi-Fi",
@@ -47,17 +42,7 @@ export const veiculos: Veiculo[] = [
   },
   {
     nome: "Micro-ônibus",
-    imagem: "magem-microonibus.jpg",
-    caracteristicas: [
-      "Ar condicionado",
-      "Wi-Fi",
-      "Espaço para bagagem",
-      "Motorista experiente",
-    ],
-  },
-  {
-    nome: "Ônibus Executivo",
-    imagem: "imagem-onibus-executivo.jpg",
+    imagem: micro,
     caracteristicas: [
       "Ar condicionado",
       "Wi-Fi",

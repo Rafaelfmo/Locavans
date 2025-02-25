@@ -22,13 +22,16 @@ export function Frota() {
         <h2 className="mb-12 text-center text-4xl font-bold text-white">
           Nossa Frota
         </h2>
-        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-2">
           {veiculos.map((veiculo: Veiculo, index: number) => (
-            <div key={index} className="rounded-lg bg-gray-800 p-6 shadow-lg">
+            <div
+              key={index}
+              className="h-auto rounded-lg bg-gray-800 p-8 shadow-lg"
+            >
               <img
                 src={veiculo.imagem}
                 alt={veiculo.nome}
-                className="mb-4 h-48 w-full rounded-md object-cover text-white"
+                className="mb-4 h-auto w-full rounded-md object-cover text-white"
               />
               <h3 className="text-2xl font-bold text-white">{veiculo.nome}</h3>
               <ul className="mt-4 text-gray-300">
