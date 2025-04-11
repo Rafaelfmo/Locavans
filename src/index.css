@@ -8,3 +8,7 @@
 * {
   min-width: 0;
 }
+
+:root {
+  --swiper-navigation-color: white;
+}
