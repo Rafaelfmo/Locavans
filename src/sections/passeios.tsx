@@ -103,7 +103,7 @@ export function Passeios() {
           </p>
           <div className="mt-4 flex justify-center">
             <a
-              href="https://wa.me/+5585996237064?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20a%20promoção%20de%20visitar%203%20praias%20em%20um%20único%20dia."
+              href="https://wa.me/+5585987194486?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20a%20promoção%20de%20visitar%203%20praias%20em%20um%20único%20dia."
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -196,7 +196,7 @@ export function Passeios() {
           </p>
           <div className="mt-6 flex justify-center">
             <a
-              href="https://wa.me/+5585996237064?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20o%20passeio%20especial%20de%201%20dia%20em%20Jeri."
+              href="https://wa.me/+5585987194486?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20o%20passeio%20especial%20de%201%20dia%20em%20Jeri."
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -211,7 +211,7 @@ export function Passeios() {
         <h2 className="mb-8 text-center text-2xl font-semibold text-gray-800">
           Outros Passeios
         </h2>
-        <div className="grid justify-center gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid justify-center gap-8 md:grid-cols-2 lg:grid-cols-2">
           {passeios.map((passeio, index) => (
             <div
               key={index}
@@ -243,7 +243,7 @@ export function Passeios() {
                   <span className="text-sm text-white">por pessoa</span>
                 </p>
                 <a
-                  href={`https://wa.me/+5585996237064?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20o%20passeio%20para%20${encodeURIComponent(passeio.titulo)}.`}
+                  href={`https://wa.me/+5585987194486?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20o%20passeio%20para%20${encodeURIComponent(passeio.titulo)}.`}
                   target="_blank"
                   rel="noopener noreferrer"
                 >

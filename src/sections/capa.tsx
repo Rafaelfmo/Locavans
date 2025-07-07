@@ -18,7 +18,7 @@ export function Capa() {
         </p>
         <div className="flex justify-center">
           <a
-            href={`https://wa.me/+5585996237064?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20a%20Locavans.`}
+            href={`https://wa.me/+5585987194486?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20a%20Locavans.`}
             className="flex w-96 items-center justify-center rounded-full bg-orange-500 px-4 py-2 text-2xl text-white transition hover:bg-orange-600"
             target="_blank"
             rel="noopener noreferrer"

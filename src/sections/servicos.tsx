@@ -59,7 +59,7 @@ export function Servicos() {
               <hr className="my-4 border-t-2 border-gray-500" />
               <div className="mt-auto flex justify-center">
                 <a
-                  href={`https://wa.me/+5585996237064?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20voltados%20para%20${encodeURIComponent(servico.titulo)}.`}
+                  href={`https://wa.me/+5585987194486?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20voltados%20para%20${encodeURIComponent(servico.titulo)}.`}
                   target="_blank"
                   rel="noopener noreferrer"
                 >

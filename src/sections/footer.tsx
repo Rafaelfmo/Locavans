@@ -107,7 +107,7 @@ export function Footer() {
           <p className="mb-4 text-xl font-semibold">Redes Sociais</p>
           <div className="mx-3 flex justify-center space-x-4 md:justify-start">
             <a
-              href="https://wa.me/+5585996237064?text=Olá,%20gostaria%20de%20mais%20informações."
+              href="https://wa.me/+5585987194486?text=Olá,%20gostaria%20de%20mais%20informações."
               className="hover:text-orange-400"
             >
               <FaWhatsapp size={25} />
